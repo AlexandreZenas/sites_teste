@@ -1,1 +1,189 @@
+* {
+	margem : 0 ;
+	preenchimento : 0 ;
+	box-sizing : border-box;
+}
+html , corpo {
+	altura :  100 % ;
 
+}
+corpo {
+	imagem de fundo :  url ( '.././fotos/wallpapper.JPG' );
+	background-repeat : sem repetição;
+	tamanho do fundo : capa;
+	anexo de fundo : fixo;
+	align-items : centro;
+	exibição : centro;
+	}
+
+/*cabeçalho do site*/
+# Cabeçalho {
+	largura máxima :  1280 px ;
+	largura mínima :  45 % ;
+	margem :  0 automático;
+	preenchimento :  0  02 % ;
+	cor de fundo : azul claro ;
+	raio da borda :  0 px  0 px  18 px  18 px ;
+}	
+. caixa H {
+	
+}
+. limpar { limpar : ambos;}
+
+/*classes do cabeçalho*/
+. logoH {
+	flutuar : esquerda;
+	cor : branco;
+	estilo da fonte : itálico;
+	tamanho da fonte :  20 px ;
+}
+. navH {
+	flutuar : direito;
+}
+nav . navH  li {
+	exibição : bloco em linha;
+
+}
+nav . navH  a {
+	decoração de texto : nenhuma;
+	preenchimento :  0  15 px ;
+	cor : preto;
+	estilo de fonte : oblíquo;
+	peso da fonte : negrito;
+
+}
+nav . navH  a : hover {
+	decoração de texto : sublinhado;
+}
+nav . navH  ul {
+	preenchimento :  8 px  0 ;
+
+}
+
+
+
+
+/*corpo do site*/
+# seção1 {
+
+	altura :  230 % ;
+	largura máxima :  1280 px ;
+	largura mínima :  45 % ;
+	largura :  80 % ;
+	margem : 0 automático;
+	preenchimento :  8 %  2 px  8 %  2 px ;
+}
+
+. containerS1 {
+	exibição : flexível;
+	largura :  100 % ;
+	altura :  33,3 % ;
+	cor de fundo : branco;
+
+	borda-topo-esquerda-raio : 50 px ;
+	border-top-right-radius : 50 px ;
+}
+
+. containerS2 {
+	exibição : flexível;
+	largura :  100 % ;
+	altura :  33,3 % ;
+	cor de fundo : branco;
+}
+ 
+. containerS3 {
+	exibição : flexível;
+	largura :  100 % ;
+	altura :  33,4 % ;
+	cor de fundo : branco;
+	raio da borda : 0  0  15 px  15 px ;
+}
+
+/* caixa do site */
+. caixaS1 , . caixaS2 , . caixaS3 , . caixa {
+	altura :  100 % ;
+	largura :  50 % ;
+	}
+
+. caixaS1 {
+	exibição : bloco em linha;
+	text-align : centro;
+	preenchimento :  8px _
+}
+. caixaS1 >  a  >  img {
+	altura :  400px ; _
+	altura máxima :  100 % ;
+	raio da borda :  80 px ;
+	borda : sólido preto de 2 px ;
+
+}
+. boxS1 >  a  >  img : hover {
+	borda : sólido vermelho de 2 px ;
+
+}
+td {
+	preenchimento : 5 px  0  0 px  0 px ;
+	font-family : cursiva;
+	tamanho da fonte :  30 px ;
+	text-align : centro;
+}
+. caixaS3 {
+	altura máxima :  100 % ;
+	estouro-y : auto;
+	tamanho da fonte :  20 px ;
+}
+
+/*rodape do site*/
+# rodapé {
+	altura :  40 % ;
+	largura :  100 % ;
+	altura máxima :  600 px ;
+	preenchimento :  0  2 % ;
+	cor de fundo : # 1b1c1c ;
+	altura máxima : ;
+}
+. recipienteF1 {
+	altura :  100 % ;
+	largura :  100 % ;
+	exibição : flexível;
+}
+. caixaF1  , . caixaF2 , . caixaF3 {
+	largura :  33,3 % ;
+	altura :  100 % ;
+
+}
+
+
+/* Barra de rolagem*/
+:: -webkit-barra de rolagem {
+  		largura :  4px ; _
+  	}
+  	:: -webkit-barra de rolagem-thumb {
+  		fundo : # c4bfbd ;
+  		raio da borda :  50 px ;
+  		
+  	
+
+  	}
+  	:: -webkit-scrollbar-thumb : hover {
+  		fundo : cinza;
+  	}
+
+
+
+
+
+  	/* consultas de mídia*/
+
+  	@media screen e ( max-width : 768 px ) {
+	. caixa {
+}
+}
+@media screen e ( max-width : 768 px ) e ( min-width : 400 px ){
+	{
+	
+}
+@media screen e ( max-width : 768 px ) e ( min-width : 400 px ){
+	. caixa {
+		
+}
