@@ -1,0 +1,189 @@
+*{
+	margin:0; 
+	padding:0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+
+}
+body{
+	background-image: url('.././fotos/wallpapper.JPG')  ;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	align-items: center;
+	display: center;
+	}
+
+/*cabeçalho do site*/
+#cabeçalho{
+	max-width: 1280px;
+	min-width: 45%;
+	margin: 0 auto;
+	padding: 0 02%;
+	background-color: lightblue;
+	border-radius: 0px 0px 18px 18px; 
+}	
+.boxH{
+	
+}
+.clear{clear: both;}
+
+/*classes do cabeçalho*/
+.logoH{
+	float: left;
+	color: white;
+	font-style: italic;
+	font-size: 20px;
+}
+.navH {
+	float: right;
+}
+nav.navH li {
+	display: inline-block;
+
+}
+nav.navH a{
+	text-decoration: none;
+	padding: 0 15px;
+	color: black;
+	font-style: oblique;
+	font-weight: bold;
+
+}
+nav.navH a:hover {
+	text-decoration: underline;
+}
+nav.navH ul{
+	padding: 8px 0;
+
+}
+
+
+
+
+/*corpo do site*/
+#section1{
+
+	height: 230%;
+	max-width: 1280px;
+	min-width: 45%;
+	width: 80%;
+	margin:0 auto;
+	padding: 8% 2px 8% 2px;
+}
+
+.containerS1{
+	display: flex;
+	width: 100%;
+	height: 33.3%;
+	background-color: white;
+
+	border-top-left-radius:50px; 
+	border-top-right-radius:50px;
+}
+
+.containerS2{
+	display: flex;
+	width: 100%;
+	height: 33.3%;
+	background-color: white;
+}
+ 
+.containerS3{
+	display: flex;
+	width: 100%;
+	height: 33.4%;
+	background-color: white;
+	border-radius:0 0 15px 15px;
+}
+
+/* box's do site*/
+.boxS1, .boxS2, .boxS3, .box{
+	height: 100%;
+	width: 50%;
+	}
+
+.boxS1{
+	display: inline-block;
+	text-align: center;
+	padding: 8px
+}
+.boxS1> a > img{
+	height: 400px;
+	max-height: 100%;
+	border-radius: 80px;
+	border:2px black solid;
+
+}
+.boxS1> a > img:hover{
+	border:2px red solid;
+
+}
+td {
+	padding:5px 0 0px 0px;
+	font-family: cursive;
+	font-size: 30px;
+	text-align: center;
+}
+.boxS3{
+	max-height: 100%;
+	overflow-y: auto;
+	font-size: 20px;
+}
+
+/*rodape do site*/
+#rodape{
+	height: 40%;
+	width: 100%;
+	max-height: 600px;
+	padding: 0 2%;
+	background-color:#1b1c1c;
+	max-height: ;
+}
+.containerF1{
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+.boxF1 , .boxF2, .boxF3{
+	width: 33.3%;
+	height: 100%;
+
+}
+
+
+/* scrollbar*/
+::-webkit-scrollbar{
+  		width: 4px;
+  	}
+  	::-webkit-scrollbar-thumb{
+  		background:#c4bfbd;
+  		border-radius: 50px;
+  		
+  	
+
+  	}
+  	::-webkit-scrollbar-thumb:hover {
+  		background: gray;
+  	}
+
+
+
+
+
+  	/* mediaqueries*/
+
+  	@media screen and (max-width:768px) {
+	.box{
+}
+}
+@media screen and (max-width:768px) and (min-width:400px){
+	{
+	
+}
+@media screen and (max-width:768px) and (min-width:400px){
+	.box{
+		
+}
