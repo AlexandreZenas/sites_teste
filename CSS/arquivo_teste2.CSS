@@ -41,6 +41,37 @@ nav.nav1 a{
 }
 nav.nav1 a:hover{ text-decoration: underline; }
 
+/*menu mobile*/
+nav.nav2{
+	display: none;
+	float: right;
+}
+nav.nav2 h2{
+	cursor: pointer;
+}
+nav.nav2 ul {
+    display: none;
+ 	width: 100%;
+ 	background: white;
+ 	position: absolute;
+ 	left: 0;
+ 	top: 44px;
+ 	z-index: 999;
+ 	text-align: center;
+
+}
+nav.nav2 li {
+	padding: 8px 0;
+	border-bottom: 1px solid black;
+}
+nav.nav2 a {
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+
+
 /*section 1*/
 section.section1{
 	position: relative;
@@ -124,10 +155,15 @@ section.section2{
 		width: 33.3%;
 		float: left;
 		text-align: center;
-}
+	}
 	.boxRS > h2 > a > img{
 		height: 60px;
 		max-width: 100%;
+	}
+	nav.nav1{display: none;}
+	nav.nav2{
+	display: block;
+	}
 }
 @media screen and (max-width: 400px){
 	.boxRS{
