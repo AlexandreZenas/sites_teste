@@ -14,22 +14,36 @@
 	<!--cabeçalho-->
 	<header>
 		<div class="container">
-		<div class="logo"><h1>Nome do Site</h1></div>
-		<nav class="nav1">
-			<ul>
-				<li class="li1">
-					<a href="">home</a>
-				</li>
-				<li>
-					<a href="">sobre</a>
-				</li>
-				<li>
-					<a href="">contato</a>
-				</li>
-			</ul>
-		</nav>
-		<div class="clear"></div>
-	</div>
+			<div class="logo"><h1>Nome do Site</h1></div>
+			<nav class="nav1">
+				<ul>
+					<li class="li1">
+						<a href="">home</a>
+					</li>
+					<li>
+						<a href="">sobre</a>
+					</li>
+					<li>
+						<a href="">contato</a>
+					</li>
+				</ul>	
+			</nav>
+			<nav class="nav2">
+				<h2><i class="fas fa-bars">=</i></h2>
+				<ul>
+					<li class="li2">
+						<a href="">home</a>
+					</li>
+					<li>
+						<a href="">sobre</a>
+					</li>
+					<li>
+						<a href="">contato</a>
+					</li>
+				</ul>
+			</nav>
+		<div class="clear"></div></div>
+	
 	</header>
 	<section class="section1">
 		<div class="overlay"></div>
@@ -89,5 +103,11 @@ Amo tecnologia desde criança, tanto software quanto hardware e sou fascinado po
 			</div>
 		</div>
 	</section>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$('nav.nav2 h2').click(function(){
+			$('nav.nav2 ul').slideToggle();
+		})
+	</script>
 </body>
 </html>
